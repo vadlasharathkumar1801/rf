@@ -1,0 +1,115 @@
+/* 
+
+.main{
+    padding: 20px;
+    font-family: Arial;
+    box-shadow: 5px  5px 7px 5px #8888;
+}
+
+.main h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-bottom: 2px solid #764776;
+
+}
+
+input[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #764776;
+    border:none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+
+} */
+body {
+    background-color: rgb(191, 127, 235);
+    color: #f5f5f5; /* smoke white */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.main {
+    padding: 20px;
+    font-family: Arial;
+    box-shadow: 5px 5px 7px 5px #8888;
+    background-color: #ffffff; /* white */
+    border-radius: 15px;
+}
+
+.main h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+    color: #080404; /* smoke white */
+}
+ h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+    color: #151313; /* smoke white */
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-bottom: 2px solid #764776;
+    background-color: rgba(255, 255, 255, 0.8); /* white with opacity 80% */
+    color: #333333; /* dark grey */
+    box-sizing: border-box; /* include padding and border in element's total width and height */
+}
+
+input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #764776;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+    background-color: #5e3b5c; /* darker shade of purple on hover */
+}
+
+input[type=submit]:active {
+    background-color: #3f2744; /* darker shade of purple when button is active */
+}
+
+.success-message {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #a3d6ff; /* light blue background for success message */
+    color: #333333; /* dark grey text color */
+    border-radius: 10px;
+}
+.main h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+    color: #403939;
+}
